@@ -1,0 +1,138 @@
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper-container {
+  width: 100%;
+  /* height: 100%; */
+}
+
+.poster-pic{
+  padding-top: 3.2rem !important;
+}
+
+.poster-temp .swiper-wrapper{
+  padding-left: 1.1rem;
+}
+
+.poster-pic .swiper-slide{
+  width: 9.45rem !important;
+  height: 16.76rem !important;
+  opacity: 0.4;
+  position: relative;
+}
+
+.poster-pic .poster-canvas{
+  width: 9.45rem;
+  height: 16.76rem;
+}
+
+.poster-pic .poster-img{
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.poster-temp .swiper-slide{
+  width: 3rem !important;
+  height: 3rem !important;
+  border-radius: 100%;
+  opacity: 0.4;
+  overflow: hidden;
+}
+
+.poster-pic .swiper-slide-active {
+  opacity: 1;
+}
+
+.poster-temp .swiper-slide-thumb-active {
+  opacity: 1;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.save-sec{
+  width: 100%;
+  height: 0.8rem;
+  line-height: 0.8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0.6rem 0 1rem;
+}
+
+.save-icon{
+  width: 0.62rem;
+  height: 0.62rem;
+  margin-right: 0.4rem;
+  display: inline-block;
+}
+
+.save-text{
+  font-size: 0.62rem;
+  color: #343434;
+  display: inline-block;
+}
+
+.bs-footer{
+  width: 100%;
+  height: 3.59rem;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background: #fff;
+}
+
+.btm-box{
+  width: 50%;
+  height: 3.59rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  float: left;
+}
+
+.btm-box .btm-icon {
+  width: 2.01rem;
+  height: 2.01rem;
+  border-radius: 100%;
+  background: #999;
+}
+
+.btm-box .btn-sec{
+  font-size: 0.77rem;
+  border: 0;
+  background: rgba(0,0,0,0);
+}
